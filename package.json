@@ -1,0 +1,35 @@
+{
+  "name": "typescript-project-template",
+  "version": "1.0.0",
+  "description": "A starter template for TypeScript projects  :hourglass_flowing_sand::clipboard:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "live-server": "^1.2.1",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "dev": "node node_modules/webpack/bin/webpack.js --watch && node node_modules/live-server/live-server.js src --verbose",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am-fernandes/typescript-project-template.git"
+  },
+  "author": "Matheus Alexandre de Sena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/am-fernandes/typescript-project-template/issues"
+  },
+  "homepage": "https://github.com/am-fernandes/typescript-project-template#readme"
+}
