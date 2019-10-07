@@ -1,2 +1,2 @@
-# typescript-project-template
-A starter template for TypeScript projects  :hourglass_flowing_sand::clipboard:
+# Web Typescript
+A starter template for TypeScript projects for the browser  :hourglass_flowing_sand::clipboard:
