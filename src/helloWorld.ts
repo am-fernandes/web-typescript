@@ -1,9 +1,10 @@
-function start() {
+ export default function start (userName: string) {
     try {
-        console.info('Everything is ok!')
+        if (userName)
+            return `Hello ${userName}`
+        else
+            return 'Hello'
     } catch (error) {
-        console.error(error)
+        return error
     }
 }
-
-export default start

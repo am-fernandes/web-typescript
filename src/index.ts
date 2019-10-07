@@ -1,5 +1,5 @@
 import start from './helloWorld'
 
 window.onload = () => {
-    start()
+    console.log(start('John'))
 }
