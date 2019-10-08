@@ -10,4 +10,6 @@ rm -rf .git
 
 git init
 
+rm -rf wts.bash
+
 echo 'Success!'
