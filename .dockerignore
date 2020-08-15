@@ -1,0 +1,11 @@
+node_modules
+dist
+*.spec.ts
+jest.config.js
+.eslintignore
+.eslintrc.js
+.git
+.gitignore
+README.md
+*.log
+*.lock
