@@ -4,7 +4,7 @@
   "description": "A starter template for TypeScript projects  :hourglass_flowing_sand::clipboard:",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles --runInBand src/tests",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --no-notify src/app.ts",
     "build": "./node_modules/.bin/babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "node dist/app.js"
