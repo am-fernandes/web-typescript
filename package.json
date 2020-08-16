@@ -1,7 +1,7 @@
 {
-  "name": "typescript-project-template",
+  "name": "typescript-boilerplate",
   "version": "1.0.0",
-  "description": "A starter template for TypeScript projects  :hourglass_flowing_sand::clipboard:",
+  "description": "A TypeScript boilerplate to amazing projects",
   "main": "index.js",
   "scripts": {
     "test": "jest --detectOpenHandles --runInBand src/tests",
@@ -10,18 +10,18 @@
     "start": "node dist/app.js"
   },
   "directories": {
-    "test": "tests"
+    "test": "src/tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/am-fernandes/typescript-project-template.git"
+    "url": "git+https://github.com/am-fernandes/typescript-boilerplate.git"
   },
   "author": "Matheus Alexandre de Sena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/am-fernandes/typescript-project-template/issues"
+    "url": "https://github.com/am-fernandes/typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/am-fernandes/typescript-project-template#readme",
+  "homepage": "https://github.com/am-fernandes/typescript-boilerplate#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
